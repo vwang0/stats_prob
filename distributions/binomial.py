@@ -1,5 +1,5 @@
 """
-binomial distribution
+Binomial distribution
 https://en.wikipedia.org/wiki/Binomial_distribution
 """
 import numpy as np

@@ -1,5 +1,5 @@
 """
-bernoulli distribution
+Bernoulli distribution
 https://en.wikipedia.org/wiki/Bernoulli_distribution
 """
 import random

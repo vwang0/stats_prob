@@ -1,5 +1,5 @@
 """
-beta distribution
+Beta distribution
 https://en.wikipedia.org/wiki/Beta_distribution
 """
 import numpy as np
@@ -12,12 +12,6 @@ def gamma_function(n):
     return cal
 
 def beta(x, a, b):
-    '''
-    x:
-    a:
-    b:
-    return: 
-    '''
     gamma = gamma_function(a + b) / (gamma_function(a) * gamma_function(b))
     y = gamma * (x**(a - 1)) * ((1 - x)**(b - 1))
     return x, y, np.mean(y), np.std(y)
