@@ -21,5 +21,5 @@ for _ in range(n_experiment):
 u, s = np.mean(y), np.std(y)
 plt.scatter(x, y, label=r'$\mu=%.2f,\ \sigma=%.2f$' % (u, s))
 plt.legend()
-plt.savefig('graph/categorical.png')
+plt.savefig('categorical.png')
 plt.show()

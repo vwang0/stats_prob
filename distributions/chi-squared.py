@@ -24,5 +24,5 @@ for k in [2, 3, 4, 6]:
     plt.plot(x, y, label=r'$k=%d$' % (k))
 
 plt.legend()
-plt.savefig('graph/chi-squared.png')
+plt.savefig('chi-squared.png')
 plt.show()

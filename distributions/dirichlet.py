@@ -59,5 +59,5 @@ for ls in [(6, 2, 2), (3, 7, 5), (6, 2, 6), (2, 3, 4)]:
     plt.plot(x, y, label=r'$\alpha=(%d,%d,%d)$' % (ls[0], ls[1], ls[2]))
 
 plt.legend()
-plt.savefig('graph/dirichlet.png')
+plt.savefig('dirichlet.png')
 plt.show()
